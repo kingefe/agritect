@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="30px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/Edit</title>
+    <desc>Created with Sketch.</desc>
+    <g id="High-Fi-Flow-(FINAL)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Data-Input-Result-Request-3D-model" transform="translate(-300.000000, -143.000000)" stroke="#000000" stroke-width="2">
+            <g id="Icon/Edit" transform="translate(296.000000, 141.000000)">
+                <polyline id="Path" stroke-linecap="round" stroke-linejoin="round" points="29 17.0465148 29 22.4377207 29 31 5 31 5 7 19.8748629 7 20.7265445 7"></polyline>
+                <path d="M17.3121283,15.5315192 L29.0438799,3.95850936 C30.1447193,2.87256544 31.9137873,2.87256544 33.0146266,3.95850936 C34.0962815,5.02552839 34.1081462,6.76737274 33.0411271,7.84902759 C33.0323539,7.85792115 33.0235202,7.86675486 33.0146266,7.87552809 L21.282875,19.448538 L16.2010509,20.8672006 L17.3121283,15.5315192 Z" id="Rectangle" stroke-linejoin="round"></path>
+                <path d="M28.9642857,4.96428571 L32.0357143,8.03571429" id="Line-57" stroke-linecap="square"></path>
+                <path d="M17.9642857,15.9642857 L21.0357143,19.0357143" id="Line-57-Copy" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

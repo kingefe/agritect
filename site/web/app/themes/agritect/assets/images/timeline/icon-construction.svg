@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="65px" viewBox="0 0 74 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="High-Fi-Flow-(FINAL)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Concept-Report-V1" transform="translate(-1022.000000, -1894.000000)">
+            <g id="Group-6" transform="translate(1008.359927, 1876.000000)">
+                <polygon id="Polygon-Copy-3" fill="#93C6D9" transform="translate(50.500000, 50.500000) rotate(-330.000000) translate(-50.500000, -50.500000) " points="50.5 14 82.1099272 32.25 82.1099272 68.75 50.5 87 18.8900728 68.75 18.8900728 32.25"></polygon>
+                <g id="Icon/Team" transform="translate(24.640073, 23.000000)" stroke="#000000">
+                    <g id="Group" transform="translate(25.235348, 25.516698) rotate(-26.000000) translate(-25.235348, -25.516698) translate(6.235348, 0.516698)">
+                        <path d="M19.9129575,49.8321295 C22.2178509,49.8333607 24.0853039,48.0038016 24.0840311,45.7456943 C24.0833911,44.6117827 23.5589449,35.5450656 23.5589449,35.5450656 C23.5589449,35.5450656 15.367229,35.9354949 15.367229,35.9354949 C15.367229,35.9354949 15.736,43.483126 15.7372733,45.7412333 C15.7385467,47.9993407 17.6080642,49.830897 19.9129575,49.8321295 Z" id="Oval" stroke-width="2" stroke-linejoin="round" transform="translate(19.725630, 42.688598) rotate(1.000000) translate(-19.725630, -42.688598) "></path>
+                        <path d="M16.6568194,42.9079795 L22.9048244,37.7042654" id="Line" stroke-width="2" stroke-linecap="square" transform="translate(19.780822, 40.306122) rotate(39.000000) translate(-19.780822, -40.306122) "></path>
+                        <ellipse id="Oval" stroke-width="2" transform="translate(19.000000, 18.622449) rotate(39.000000) translate(-19.000000, -18.622449) " cx="19" cy="18.622449" rx="13.1701538" ry="13.1153159"></ellipse>
+                        <path d="M18.2420669,32.6554669 L20.799029,35.2016759" id="Line-34" stroke-width="2" stroke-linecap="square" transform="translate(19.520548, 33.928571) rotate(39.000000) translate(-19.520548, -33.928571) "></path>
+                    </g>
+                    <g id="Group-2" transform="translate(15.600000, 11.000000)">
+                        <path d="M14,15.5971098 C14,11.9536267 10.8659932,9 7,9 C3.13400675,9 0,11.9536267 0,15.5971098 C0,17.4676301 14,17.4676301 14,15.5971098 Z" id="Oval" stroke-width="2"></path>
+                        <circle id="Oval" stroke-width="2" cx="7" cy="3" r="3"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

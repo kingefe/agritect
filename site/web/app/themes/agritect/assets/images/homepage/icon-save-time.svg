@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="225px" height="225px" viewBox="0 0 225 225" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="225" height="225"></rect>
+            <g id="icon-save-time" transform="translate(0.000000, 20.000000)">
+                <path d="M112.5,205 C174.632034,205 225,175.840517 225,107.801724 C225,39.762931 174.632034,10.6034483 112.5,10.6034483 C50.3679656,10.6034483 0,39.762931 0,107.801724 C0,175.840517 50.3679656,205 112.5,205 Z" id="Oval-Copy-5" fill="#C5DD8A" fill-rule="nonzero"></path>
+                <g id="Group-2" transform="translate(30.882353, 0.000000)">
+                    <ellipse id="Oval" stroke="#000000" stroke-width="4" cx="81.1764706" cy="81.2931034" rx="81.1764706" ry="81.2931034"></ellipse>
+                    <ellipse id="Oval" stroke="#000000" stroke-width="2" cx="81.1764706" cy="81.2931034" rx="70.5882353" ry="70.6896552"></ellipse>
+                    <ellipse id="Oval" fill="#000000" fill-rule="nonzero" cx="81.1764706" cy="81.2931034" rx="7.94117647" ry="7.95258621"></ellipse>
+                    <path d="M81.1764706,22.0905172 L81.1764706,83.9439655" id="Line-2" stroke="#000000" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M81.1764706,81.2931034 L49.1510568,103.180407" id="Line-2-Copy" stroke="#000000" stroke-width="4" stroke-linecap="round"></path>
+                    <polyline id="Path" stroke="#000000" stroke-width="6" stroke-linecap="square" points="155.294118 81.7349138 157.870201 81.7349138 160.588235 81.7349138"></polyline>
+                    <polyline id="Path-Copy" stroke="#000000" stroke-width="6" stroke-linecap="square" points="3.52941176 81.7349138 6.10549513 81.7349138 8.82352941 81.7349138"></polyline>
+                    <path d="M15,123.706897 L20.7352941,119.730603" id="Path" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M144.705882,48.5991379 L151.764706,45.0646552" id="Path" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M42.7941176,152.424569 L47.2058824,144.471983" id="Path" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M118.676471,20.7650862 L122.769159,14.137931" id="Path" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M120.882353,150.215517 L116.470588,143.146552" id="Path" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M45,19.4396552 L40.5882353,11.487069" id="Path" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M150.882353,121.939655 L143.823529,117.521552" id="Path" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M18.5294118,45.0646552 L12.3529412,41.5301724" id="Path" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M81.1764706,3.53448276 L81.1764706,8.8362069" id="Path" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                    <path d="M81.1764706,155.517241 L81.1764706,160.818966" id="Path" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="108" viewBox="0 0 140 108">
+    <defs>
+        <path id="b" d="M17.901 69.418V9"/>
+        <filter id="a" width="350%" height="110.5%" x="-129.9%" y="-5.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="1.5"/>
+            <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M41.039 53.325l33.36.675 1.346-22.32L82 21.172l-9.344-.384V9.085l-9.818 3.828L57.882 5l-5.957 8.603-9.184-4.518 1.882 13.9-10.506-2.197 4.294 15.262L30 43.352z"/>
+        <g stroke="#000">
+            <path fill="#FFF" stroke-width="3" d="M23 68c0 16.43 15.446 34 34.5 34C76.554 102 92 84.43 92 68"/>
+            <path fill="#FFF" stroke-linejoin="round" stroke-width="3" d="M51.5 14.743c.479-1.516.979-2.74 1.5-3.674C55.152 7.216 57.5 4 57.5 4s2.069 3.203 3.5 7.07c.427 1.153.743 2.378.946 3.673M57.5 21.381c2.274-3.8 4.21-6.422 5.808-7.866C66.926 10.245 72 8.676 72 8.676s1.265 3.185.966 7.479c-.071 1.022-.26 2.22-.568 3.594-.077.346-.21.89-.398 1.632"/>
+            <path fill="#FFF" stroke-linejoin="round" stroke-width="3" d="M61.184 27.549a31.365 31.365 0 0 0-.507-1.315C58.748 21.558 56.296 19.07 53 15.95c-5.335-5.05-11.842-7.274-11.842-7.274s.936 11.208 2.987 14.507c.315.506.655.826 1.022.891M57.5 34.015c-.283-2.807 2.816-6.18 9.297-10.118C74.47 19.233 84 19.84 84 20.015c0 .195-3.57 3.613-5.348 5.984-2.48 3.306-3.085 6.501-3.188 9.446-.013.36-.018.717-.018 1.07"/>
+            <path fill="#FFF" stroke-linejoin="round" stroke-width="3" d="M60 47.015c1.333-7-1-13-7-18-8.82-7.35-21.789-9.515-21.789-9.515s2.666 3.559 4.789 9.515c.686 1.925 1.071 4.425 1.155 7.5M16.5 58.234h80v9.563h-80z"/>
+            <path fill="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M42 58.015c-2.451-1.34-6.903-3.899-12-12.5-1.13-1.905-2.462-5.739-4-11.5 16.667.796 27.5 8.797 32.5 24H42z"/>
+            <path fill="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M70.5 58.015c1.39-.76 1.47.398 7.5-5 7-6.266 10.032-16.507 10.697-19C72.031 34.81 59 42.812 54 58.015h16.5z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M62.49 51.06c3.044-5.001 7.377-8.334 13-10M45.195 29.026c5.11 2.138 8.403 5.886 9.878 11.247"/>
+            <path stroke-linecap="round" stroke-width="2" d="M34.418 39.459c2.548.542 5.34 1.688 8.376 3.437 5.488 3.161 8.377 8.164 8.377 8.164"/>
+        </g>
+        <g transform="translate(80 18)">
+            <ellipse cx="30.481" cy="16.249" fill="#000" rx="2.315" ry="2.896" transform="rotate(48 30.48 16.249)"/>
+            <ellipse cx="18.5" cy="3" fill="#000" rx="2.5" ry="3"/>
+            <path fill="#FFF" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9.02 50v5.127L3 65.842v14.775L7.503 84h23.031L34 80.617V65.842l-6.58-10.715V50"/>
+            <g stroke-linecap="round" stroke-linejoin="round">
+                <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+                <use stroke="#000" stroke-width="3" xlink:href="#b"/>
+            </g>
+            <circle cx="18" cy="8" r="4" fill="#FFF" stroke="#000" stroke-width="2"/>
+            <ellipse cx="7.019" cy="14.91" fill="#000" rx="1.739" ry="2.314" transform="rotate(-36 7.02 14.91)"/>
+            <ellipse cx="3.589" cy="26.828" fill="#000" rx="2.318" ry="2.893" transform="rotate(-36 3.589 26.828)"/>
+            <ellipse cx="34.346" cy="29.564" fill="#000" rx="2.312" ry="2.9" transform="rotate(65 34.346 29.564)"/>
+            <path fill="#FFF" stroke="#000" stroke-width="2" d="M10.959 32.991c-1.755 1.582-4.205.946-5.548-.698-1.288-1.578-1.988-3.798-1.032-5.287 1.147-1.787 4.161-1.587 6.018.06 1.982 1.755 2.434 4.238.562 5.925z"/>
+            <path stroke="#000" stroke-linecap="square" stroke-width="3" d="M13.102 21.233l3.398 2.798"/>
+            <path fill="#FFF" stroke="#000" stroke-width="2" d="M12.799 21.678c-1.907 1.525-4.256.65-5.488-1.162-1.147-1.685-1.651-3.957-.57-5.358 1.299-1.68 4.284-1.218 5.992.585 1.83 1.932 2.068 4.335.066 5.935zM24.153 22.56c-1.642-1.56-.992-3.904.603-5.386 1.494-1.387 3.563-2.281 5.014-1.509 1.793.955 1.569 3.862.007 5.79-1.665 2.056-3.902 2.738-5.624 1.104z"/>
+            <path stroke="#000" stroke-linecap="square" stroke-width="3" d="M12 33l5 4M22.938 22.632L18.5 26.5M25 33.825L17.6 37.5"/>
+            <path fill="#FFF" stroke="#000" stroke-width="2" d="M25.299 33.398c-.827-2.104.757-3.954 2.83-4.625 1.944-.63 4.197-.57 5.186.742 1.222 1.622-.216 4.16-2.45 5.251-2.381 1.163-4.698.84-5.566-1.368z"/>
+            <path fill="#FFF" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4.5 44.5h28v5h-28z"/>
+        </g>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M32 77c4.67 8.66 11.67 14.66 21 18"/>
+    </g>
+</svg>

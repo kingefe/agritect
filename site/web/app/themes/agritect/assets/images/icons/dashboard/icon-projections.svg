@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="98px" viewBox="0 0 108 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon-projections</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CTA/-Get-help-Data" transform="translate(-23.000000, -5.000000)">
+            <g id="icon-projections" transform="translate(25.000000, 7.000000)">
+                <rect id="Rectangle-Copy" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linejoin="round" x="0" y="0" width="74" height="94"></rect>
+                <path d="M7.27906977,27.25 L66.3023256,27.25" id="Line-66" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+                <path d="M7.27804878,35.25 L62.8878049,35.25" id="Line-66-Copy" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+                <path d="M7.2,85 L67.5,85.5" id="Line-66-Copy-2" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+                <circle id="Oval" stroke="#000000" stroke-width="3" transform="translate(11.750765, 49.049890) rotate(-22.000000) translate(-11.750765, -49.049890) " cx="11.7507653" cy="49.0498905" r="4"></circle>
+                <circle id="Oval-Copy" stroke="#000000" stroke-width="3" transform="translate(40.334159, 45.051193) rotate(-22.000000) translate(-40.334159, -45.051193) " cx="40.3341594" cy="45.0511928" r="4"></circle>
+                <circle id="Oval-Copy-3" stroke="#000000" stroke-width="3" transform="translate(51.141755, 55.784127) rotate(-22.000000) translate(-51.141755, -55.784127) " cx="51.1417549" cy="55.7841272" r="4"></circle>
+                <circle id="Oval-Copy-2" stroke="#000000" stroke-width="3" transform="translate(25.161942, 60.887979) rotate(-22.000000) translate(-25.161942, -60.887979) " cx="25.1619417" cy="60.8879794" r="4"></circle>
+                <path d="M15.2908627,52.4730046 L21.8091476,57.9284572" id="Line-67" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                <path d="M28.1214639,57.5351853 L36.4474533,48.7785935" id="Line-2" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                <path d="M43.6869535,48.0107151 L47.4143542,51.8974211" id="Line-3" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+                <rect id="Rectangle" stroke="#000000" stroke-width="3" x="7" y="8" width="60" height="11"></rect>
+                <rect id="Rectangle" fill="#000000" x="8" y="64" width="6" height="20"></rect>
+                <rect id="Rectangle-Copy-2" fill="#000000" x="19" y="71" width="6" height="13"></rect>
+                <rect id="Rectangle-Copy-3" fill="#000000" x="29" y="68" width="6" height="16"></rect>
+                <rect id="Rectangle-Copy-4" fill="#000000" x="40" y="74" width="6" height="10"></rect>
+                <rect id="Rectangle-Copy-5" fill="#000000" x="50" y="80" width="6" height="4"></rect>
+                <rect id="Rectangle-Copy-6" fill="#000000" x="61" y="72" width="6" height="12"></rect>
+                <circle id="Oval" stroke="#000000" stroke-width="3" fill="#FFFFFF" cx="79" cy="54" r="25"></circle>
+                <g id="Group" transform="translate(64.000000, 40.000000)" stroke="#000000" stroke-width="4">
+                    <g id="Icon/Check">
+                        <polyline id="Path-111" points="1.20833333 14.610077 10.5223963 24.1666667 29 3.625"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

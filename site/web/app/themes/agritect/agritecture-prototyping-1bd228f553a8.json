@@ -1,0 +1,13 @@
+
+{
+  "type": "service_account",
+  "project_id": "agritecture-prototyping",
+  "private_key_id": "1bd228f553a8c1e1847ab5b740212278cdeedbf5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDS365Myr3cc+G6\n9gOWWGINbeXaehlEz4JQz1qHhvrR8GquPh20UH/zBb30yJWnzcwhwcNZ9CuKlNvD\npsmxf8Tfpmd5Ne7oDIIF5JAnDTxkWhRiUDLONx6hE7beKQjCio2DKsmij8XMMKmg\nnK298ABCOYP+GyngtNX9t0/Z0q6CVIKYOWQwgcCxT6NrXgN2y/rYrFBy/WaOQOYs\nfptLBrGXV+PfvaaHgcRObExqZX7t/wgpAThCdnV2V0Lxt4bWTobFXvG3T+2RsGtZ\nG9C+7nQQ9Q95hcHP50reN7FL48P2ftX4SNsS6l9M8GEOq2g2Asu9uRV8d/mYaqly\nA+05WdTpAgMBAAECggEAAQGvVSTXRiuexWPc6C/7e9aX9R8warCA4z4yJO54g7MI\nQf+q6ExFaBVmxDncOQUATJ2eVJoX8R09H/shAFdnSwKs1hpzTalC9PXpLZPgbhbd\n/QrRS0RebDoUso0d7RZ4jsqP/tYn2riAFB5bV/Ttfg4Z5Vx01TftGOfHRPdpUixE\niwro/NYTMDcyh7yhqX1MGyrPb4Y27NVW/xhqbs0Q5XFkM+VIIXcsBcHDPnGlf84G\nfrJEMeDAxmwQQ8XWfbFHUwB48l9WG+JseO5neqjrEiSx+xMMAV4jQFcmrxTzB6I/\nnz1q3K+ZCucLc5JM1pCJlz3LQf4Ne/1YGbbnLHpaGQKBgQD3Nkd9iqYZdd75s8vi\nfAraA5GEL4+86G4WFV30VdMN9Xk0WJxyrs5/hsZkOqymiGDQrEr3wfjYtL1mVvOA\n9BeWs9oye6HB29ZqscO7fbuRaFfDToUoOL9lSVw6Topg/WyH14tcR5meAjrJ1qVd\nDhLwgTqY37sSBM3EgDuy6URklQKBgQDaXrW6qnGo52HeR7ygz/Y9xpRfJu/Rbw0w\nkc/jM0JYEO1L3b+p5HRnWB9KoDIBFJVhCldqQT/W/KcTKECaHMbzHLt7B58MBihF\nGkibrkGzAka54D06MFa3gBHdFwR2RaFNl4ByTF8GcLCp8fy07uRotxCPECQIaVYr\n9F7kNo7mBQKBgQDWZv4T1JcAB+mNuTD/ycMDmAqxkSphlVg80OU+jtzQA3DORHfT\nQuaXVcVkkjrA6BDHilYukM2I7SBCzPC9i3WV34BDPlRpNIe+21O9nWt6zfsnyUbV\nPnpIlxpk+08qlUB2hCs6qmKB1r8z5HRgw18LtZijk47ELuRjIzAjmAoYDQKBgCXB\nSERc4cflMXugBZH8QsPNiKum7MHWJH6oRzwuCaN2UcDTNyclk6amisp5Rgv/xhAA\nHLsHSwVdq3lZdUnv/cncxuFvoOUQT3gbIkCgcUWE+Dt89LkR0HxrjSsfpqrYQRpM\nPm4EnE1dwH2xlBKoVx9vv1Is5T37EGYLGzjz4eMNAoGAS4OoInh/sdo9kVl48wrk\nl91c+l41N9AM3+sWbtOJ4X1gIu4wE0R34OPnv6ZAZv48wYamhNkLj7ym9gr2QHL3\nz6KDUszp5Jo39FpOz5EJ3IwSxcpQhQBLE8mD1SbNF69AmGje/jQkMrGX1VLTEta2\n36PZ2pNeDKYxyEhM0oaJxKc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "agritecture-prototyping@appspot.gserviceaccount.com",
+  "client_id": "114752708872086551170",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/agritecture-prototyping%40appspot.gserviceaccount.com"
+}

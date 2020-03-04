@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="108px" viewBox="0 0 140 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Submit/Feedback</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Submit/Feedback" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#000000" stroke-width="3" fill="#FFFFFF" cx="69" cy="8" r="6"></circle>
+        <rect id="Rectangle" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linejoin="round" x="31" y="10" width="78" height="94" rx="2"></rect>
+        <rect id="Rectangle" stroke="#000000" stroke-width="3" x="40.5" y="19.5" width="60" height="76"></rect>
+        <rect id="Rectangle-Copy-7" stroke="#000000" stroke-width="3" x="47" y="68" width="45" height="17"></rect>
+        <path d="M64,8 L74,8 C78.9705627,8 83,12.0294373 83,17 L83,21 L83,21 L55,21 L55,17 C55,12.0294373 59.0294373,8 64,8 Z" id="Rectangle" stroke="#000000" stroke-width="3" fill="#FFFFFF" stroke-linejoin="round"></path>
+        <rect id="Rectangle" fill="#000000" x="46" y="32" width="4" height="4"></rect>
+        <rect id="Rectangle-Copy-2" fill="#000000" x="46" y="40" width="4" height="4"></rect>
+        <rect id="Rectangle-Copy-4" fill="#000000" x="46" y="48" width="4" height="4"></rect>
+        <rect id="Rectangle-Copy-6" fill="#000000" x="46" y="56" width="4" height="4"></rect>
+        <rect id="Rectangle-Copy" fill="#000000" x="54" y="32" width="19" height="4"></rect>
+        <rect id="Rectangle-Copy-3" fill="#000000" x="54" y="40" width="21" height="4"></rect>
+        <rect id="Rectangle-Copy-5" fill="#000000" x="54" y="48" width="23" height="4"></rect>
+        <rect id="Rectangle-Copy-8" fill="#000000" x="54" y="56" width="41" height="4"></rect>
+        <g id="Group" transform="translate(81.000000, 34.000000)" stroke="#000000" stroke-width="3">
+            <path d="M2.54143616,30.8395156 L29.3761979,4.4636141 C31.8968404,1.98607329 35.9380902,1.98607329 38.4587326,4.4636141 C40.9239186,6.88664672 40.9580907,10.8493309 38.5350581,13.3145169 C38.5098361,13.3401776 38.4843934,13.3656203 38.4587326,13.3908423 L11.6239709,39.7667438 L11.6239709,39.7667438 L0,43 L2.54143616,30.8395156 Z" id="Rectangle" fill="#FFFFFF" stroke-linejoin="round"></path>
+            <line x1="28.9642857" y1="6.96428571" x2="35.875" y2="13.875" id="Line-57" stroke-linecap="square"></line>
+            <line x1="3.96428571" y1="31.9642857" x2="10.875" y2="38.875" id="Line-57-Copy" stroke-linecap="square"></line>
+        </g>
+    </g>
+</svg>

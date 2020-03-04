@@ -1,0 +1,358 @@
+.navbar-brand {
+  &--center {
+    padding: 0;
+    margin-right: 0;
+  }
+}
+
+
+.questionnaire-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  // background-color: $color-grey-dark;
+  background: rgb(40,40,40);
+  background: linear-gradient(180deg, rgba(40,40,40,1) 0%, rgba(40,40,40,0) 100%);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.page.project-vision {
+  @extend .body-dark;
+
+  header.banner {
+    .row {
+      justify-content: center;
+      text-align: center;
+
+      & > * + * {
+        display: none;
+      }
+    }
+  }
+}
+
+#jsFormMessage {
+  max-width: 600px;
+  margin: 0 auto;
+
+  p {
+    line-height: 1.25;
+  }
+}
+
+article.questionnaire {
+  label::selection,
+  span::selection,
+  div::selection,
+  img::selection,
+  p::selection,
+  small::selection, 
+  h1::selection, 
+  h2::selection,
+  h3::selection,
+  h4::selection,
+  a::selection {
+    background: transparent; /* WebKit/Blink Browsers */
+  }
+
+  label::-moz-selection,
+  span::-moz-selection,
+  div::-moz-selection,
+  img::-moz-selection,
+  p::-moz-selection,
+  small::-moz-selection, 
+  h1::-moz-selection, 
+  h2::-moz-selection,
+  h3::-moz-selection,
+  h4::-moz-selection,
+  a::-moz-selection {
+    background: transparent; /* Gecko Browsers */
+  }
+
+  // ajax loading image
+  img.loading {
+    max-width: 320px;
+    max-height: 50vh;
+  }
+
+  // jQuery Steps CSS
+  .wizard {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+
+    .actions {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      // background-color: $color-grey-dark;
+      background: rgb(40,40,40);
+      background: linear-gradient(0deg, rgba(40,40,40,1) 0%, rgba(40,40,40,0) 100%);
+      left: 0;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+      bottom: 1rem; 
+
+      ul {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin: 0;
+          display: block;
+          width: 50%;
+          padding-left: 15px;
+          padding-right: 15px;
+
+          // &:first-child {
+          //   position: absolute;
+          //   left: 30px;
+          //   bottom: 60px;
+          // }
+        }
+      }
+
+      a {
+        @extend .btn;
+        display: block;
+        width: 100%;
+        max-width: 270px;
+        margin: 0 auto;
+
+        // &[href="#next"] {
+        //   @extend .btn-primary;
+        // }
+
+        &[href="#previous"] {
+          @extend .btn-dark;
+        }
+
+      }
+
+      .disabled {
+        a, a:hover, a:active {
+          background: #eee;
+          color: #aaa;
+        }
+      }
+    }
+
+    // PROGRESS INDICATORS
+    .steps {
+      position: fixed;
+      display: block;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+      background-color: $color-grey-dark;
+
+      .current-info {
+        position: absolute;
+        left: -999em;
+      }
+
+      .number {
+        font-size: 1.429em;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+
+        li {
+          flex: 1 1 0;
+          position: relative;
+
+          a,
+          a:hover,
+          a:active {
+            display: block;
+            width: auto;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            border-radius: 0 !important;
+            font-size: 0;
+            height: 1rem;
+            position: relative;
+            background: transparent;
+            z-index: 2;
+          }
+
+          &.current,
+          &.done {
+            a {
+              background: $color-brand;
+            }
+
+            &:after {
+              content: '';
+              height: 1rem;
+              width: 1rem;
+              border-radius: 50%;
+              background: $color-grey-dark;
+              border: 2px solid $color-brand;
+              position: absolute;
+              bottom: 0;
+              left: calc(100% - .5rem);
+              z-index: 3;
+            }
+          }
+
+          &.current {
+            &:after {
+              background: $color-white;
+            }
+          }
+
+          &:not(.disabled):last-child {
+            // background: red;
+          }
+
+          &.disabled a {
+            background: transparent !important;
+          }
+        }
+      }
+    }
+
+
+    // QUESTIONS AND CONTENT
+    .content {
+      display: block;
+      overflow: hidden;
+      position: relative;
+      width: auto;
+      
+      .title {
+        position: absolute;
+        left: -999em;
+      }
+
+      .body {
+        ul {
+          list-style: disc !important;
+
+          li {
+            display: list-item;
+          }
+          iframe {
+            border: 0 none;
+            width: 100%;
+            height: 100%;
+          }
+
+          input.error {
+            background: rgb(251, 227, 228);
+            border: 1px solid #fbc2c4;
+            color: #8a1f11;
+          }
+
+          label.error {
+            color: #8a1f11;
+            display: inline-block;
+            margin-left: 1.5em;
+          }
+        }
+      }
+    }
+  }
+
+
+  .loading-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    text-align: center;
+
+    &__images {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    &__logo {
+      height: 36px;
+      margin-bottom: 12px;
+    }
+
+    &__gif {
+      height: 32px;
+    }
+  }
+
+  .wizard-header {
+    display: none;
+  }
+
+  #js-quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow: visible;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 82px;
+    justify-content: center;
+    text-align: center;
+
+    @include media-breakpoint-up(lg) {
+      padding-top: 80px;
+      padding-bottom: 80px;  
+    }
+
+    .actions,
+    .content {
+      width: 100%;
+    }
+
+    li[aria-hidden=true] {
+      display: none !important;
+    }
+
+  }
+
+  .form-message {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 200;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: $color-grey-dark;
+
+    h1 {
+      max-width: 800px;
+      vertical-align: middle;
+    }
+  }
+}
+
+

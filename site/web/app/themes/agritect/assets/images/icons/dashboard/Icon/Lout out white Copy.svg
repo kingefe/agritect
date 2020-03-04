@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/Lout out white Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Lout-out-white-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="help-circle" transform="translate(2.000000, 2.000000)">
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="10" cy="10" r="10"></circle>
+            <path d="M7,7.00475214 C7.48543688,5.62479658 8.89538362,4.79615847 10.3371763,5.04346425 C11.778969,5.29077002 12.8321794,6.54190507 12.8300034,8.00475214 C12.8300034,10.0047521 9.83,11.0047521 9.83,11.0047521" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="#FFFFFF" cx="10" cy="14.5" r="1.5"></circle>
+            <path d="M10,15 L10,15" id="Path" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

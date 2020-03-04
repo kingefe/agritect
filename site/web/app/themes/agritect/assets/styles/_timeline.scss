@@ -1,0 +1,284 @@
+$color-phase-1: #5a896a;
+$color-phase-2: #5fa276;
+$color-phase-3: #60d37e;
+$color-phase-4: #94d6b0;
+$color-phase-5: #a0dcd7;
+$color-phase-6: #93c6d9;
+$color-phase-7: #C8EAEE;
+
+
+.hexagon {
+  position: relative;
+  display: inline-block;
+
+  &__left {
+    float: left;
+    border-right: 15px solid $color-phase-1;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+  }
+
+  &__middle {
+    float: left;
+    width: 30px;
+    height: 52px;
+    background-color: $color-phase-1;
+  }
+
+  &__right {
+    float: left;
+    border-left: 15px solid $color-phase-1;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+  }
+}
+
+.timeline-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.timeline {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 800px;
+    flex-direction: row;
+  }
+
+  &__icon {
+    position: relative;
+    flex-grow: 0;
+
+    &:after {
+      content: "";
+      width: 4px;
+      height: 20px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    @include media-breakpoint-up(md) {
+      flex: 0 0 25%;
+
+      &:after {
+        display: none;
+      } 
+    }
+
+    @include media-breakpoint-up(lg) {
+      flex: 0 0 auto;
+      background-color: black;
+    }
+
+    img {
+      height: 64px;
+      position: relative;
+      z-index: 10;
+      width: auto;
+      display: block;
+      margin: 0 auto;
+
+      @include media-breakpoint-up(lg) {
+        height: 48px;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      &:before {
+        content: "";
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        background-color: white;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+      }
+    }
+  }
+
+  &__content {
+    flex: 1 1 auto;
+
+    @include media-breakpoint-up(lg) {
+      flex-basis: 100%;
+      margin-left: -30px;
+      margin-right: -30px;
+      flex: 1 0 100%;
+    }
+  }
+
+  &__spacer {
+    display: none;
+
+    @include media-breakpoint-up(lg) {
+      display: block;
+      flex: 1 0 100%;
+    }
+  }
+
+  &__phase {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 100%;
+
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+      justify-content: left;
+    }
+
+    @include media-breakpoint-up(lg) {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      background-color: $color-phase-1;
+      font-weight: medium;
+      padding: 0.5rem;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1rem;
+      padding: 0.5rem;
+      border: 4px solid $color-phase-1;
+      margin: 0;
+      background-color: white;
+    }
+
+    &--odd {
+      .timeline__milestone:after {
+        content: "";
+        width: 4px;
+        height: 40px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      @include media-breakpoint-up(lg) {
+        .timeline__content {
+          display: flex;
+          flex-direction: column;
+          justify-content:: flex-end;
+          order: -1;
+        }
+      }
+    }
+
+    &--even {
+      .timeline__milestone:after {
+        content: "";
+        width: 4px;
+        height: 40px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      @include media-breakpoint-up(lg) {
+        .timeline__content {
+          display: flex;
+          flex-direction: column;
+          justify-content:: flex-start;
+        }
+
+        .timeline__spacer {
+          order: -1;
+        }
+
+        .timeline__milestone:before {
+          content: "";
+          width: 4px;
+          height: 40px;
+          display: block;
+          margin: 0 auto;
+        }
+
+        .timeline__milestone:after {
+          display: none;
+        }
+      }
+    }
+
+    &--1 {
+      @extend .timeline__phase--odd;
+      h3 { background-color: $color-phase-1; }
+      p { border-color: $color-phase-1; }
+      .timeline__icon:after,
+      .timeline__milestone:before, 
+      .timeline__milestone:after { background-color: $color-phase-1; }
+    }
+
+    &--2 {
+      @extend .timeline__phase--even;
+      h3 { background-color: $color-phase-2; }
+      p { border-color: $color-phase-2; }
+      .timeline__icon:after,
+      .timeline__milestone:before, 
+      .timeline__milestone:after { background-color: $color-phase-2; }
+    }
+
+    &--3 {
+      @extend .timeline__phase--odd;
+      h3 { background-color: $color-phase-3; }
+      p { border-color: $color-phase-3; }
+      .timeline__icon:after,
+      .timeline__milestone:before, 
+      .timeline__milestone:after { background-color: $color-phase-3; }
+    }
+
+    &--4 {
+      @extend .timeline__phase--even;
+      h3 { background-color: $color-phase-4; }
+      p { border-color: $color-phase-4; }
+      .timeline__icon:after,
+      .timeline__milestone:before, 
+      .timeline__milestone:after { background-color: $color-phase-4; }
+    }
+
+    &--5 {
+      @extend .timeline__phase--odd;
+      h3 { background-color: $color-phase-5; }
+      p { border-color: $color-phase-5; }
+      .timeline__icon:after,
+      .timeline__milestone:before, 
+      .timeline__milestone:after { background-color: $color-phase-5; }
+    }
+
+    &--6 {
+      @extend .timeline__phase--even;
+      h3 { background-color: $color-phase-6; }
+      p { border-color: $color-phase-6; }
+      .timeline__icon:after,
+      .timeline__milestone:before, 
+      .timeline__milestone:after { background-color: $color-phase-6; }
+    }
+
+    &--7 {
+      @extend .timeline__phase--odd;
+      h3 { background-color: $color-phase-7; }
+      p { border-color: $color-phase-7; }
+      .timeline__icon:after,
+      .timeline__milestone:before, 
+      .timeline__milestone:after { background-color: $color-phase-7; }
+
+      .timeline__milestone:after {
+        display: none;
+      }
+
+      @include media-breakpoint-up(lg) {
+        .timeline__milestone:after {
+          display: block;
+        }
+      }
+    }
+  }
+}

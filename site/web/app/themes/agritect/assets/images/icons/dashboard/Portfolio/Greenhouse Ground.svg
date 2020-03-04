@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="190px" height="146px" viewBox="0 0 190 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Portfolio/Greenhouse Ground</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Portfolio/Greenhouse-Ground" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(20.000000, 22.000000)">
+            <path d="M34,0 L112.579437,0 L149.945069,33.2747924 C156.811576,70.6825226 152.102801,93.0478001 135.818743,100.370625 C119.534686,107.69345 85.5951046,103.935077 34,89.0955066 L34,0 Z" id="Rectangle" fill="#FFFFFF"></path>
+            <polygon id="Rectangle" stroke="#000000" stroke-width="4" fill="#FFFFFF" stroke-linejoin="round" points="0 36.5110467 33.7250483 0 72 36.5110467 72 114 0 114 0 75.2555234"></polygon>
+            <polyline id="Path" stroke="#000000" stroke-width="4" fill="#FFFFFF" stroke-linejoin="round" points="34 0 40.126431 0.0240174981 114.569985 0.377673605 151 36"></polyline>
+            <rect id="Rectangle" stroke="#000000" stroke-width="4" fill="#FFFFFF" stroke-linejoin="round" x="71" y="36" width="80" height="78"></rect>
+            <path d="M72.609375,63.5 L149.327253,63.5" id="Line-41" stroke="#000000" stroke-width="4" fill="#FFFFFF" stroke-linecap="square"></path>
+            <path d="M53.6129032,16.5 L128.387097,16.5" id="Line-41-Copy-2" stroke="#000000" stroke-width="4" fill="#FFFFFF" stroke-linecap="square"></path>
+            <polyline id="Line-41-Copy" stroke="#000000" stroke-width="4" fill="#FFFFFF" stroke-linecap="square" points="72 90.5 146.445944 90.5 150 90.5"></polyline>
+            <path d="M126.008456,36.2572207 L126.25,112.388889" id="Line-42" stroke="#000000" stroke-width="4" fill="#FFFFFF" stroke-linecap="square"></path>
+            <path d="M99.008456,37.2592979 L99.25,112.387097" id="Line-42-Copy" stroke="#000000" stroke-width="4" fill="#FFFFFF" stroke-linecap="square"></path>
+            <path d="M125.182796,35.7650607 L88.6129032,1.60344828" id="Line-43" stroke="#000000" stroke-width="4" fill="#FFFFFF" stroke-linecap="square"></path>
+            <path d="M99.9093465,35.7650607 L62.6333333,1.60344828" id="Line-43-Copy" stroke="#000000" stroke-width="4" fill="#FFFFFF" stroke-linecap="square"></path>
+            <path d="M13.1821903,57.7009537 C14.3550724,54.95086 22.9746576,55.580837 27.7857627,59.0469436 C32.3565613,62.339924 35.814475,69.8762876 34.8199809,72.2081091 C33.6455763,74.9617728 24.8193919,74.5532817 20.0181814,71.0943036 C15.450266,67.8034003 12.1687005,60.0773151 13.1821903,57.7009537 Z" id="Oval-Copy-2" stroke="#000000" stroke-width="4" stroke-linejoin="round"></path>
+            <path d="M20.3182894,35.9867687 C20.7592829,35.2695906 21.3381812,35.0509168 21.9676507,35.0060993 C22.1879266,34.9904159 22.3909151,35.0048807 22.6049188,35.0382902 C22.8819298,35.0815363 23.1943394,35.1621516 23.5430797,35.2748482 C24.2149038,35.4919506 25.0234454,35.8298951 25.8510077,36.2462075 C27.9597275,37.3070174 29.9236801,38.7158283 31.3740796,40.3765986 C34.108714,43.5078735 35.6970272,49.2937613 34.6669356,50.9689768 C33.2395074,53.2903723 27.1348205,51.2574386 24.1454078,47.8344315 C21.4052115,44.6967881 19.2968159,37.6479689 20.3182894,35.9867687 Z" id="Oval-Copy-4" stroke="#000000" stroke-width="4" stroke-linejoin="round"></path>
+            <path d="M50.4403825,105.767752 C47.3973607,105.75011 42.1567704,98.0922722 42.1120917,91.3122443 C42.0670782,84.4814163 47.3334256,74.8523918 50.2863192,74.8694976 C53.2799447,74.8868534 58.2120404,82.649522 58.2567655,89.4365907 C58.3018923,96.284615 53.371913,105.784734 50.440392,105.767752 Z" id="Oval-Copy" stroke="#000000" stroke-width="4" stroke-linejoin="round" transform="translate(50.184440, 90.318625) rotate(70.000000) translate(-50.184440, -90.318625) "></path>
+            <path d="M19.8395034,105.767752 C16.7964815,105.75011 11.5558913,98.0922722 11.5112126,91.3122443 C11.4661991,84.4814163 16.7325465,74.8523918 19.68544,74.8694976 C22.6790656,74.8868534 27.6111613,82.649522 27.6558864,89.4365907 C27.7010132,96.284615 22.7710339,105.784734 19.8395129,105.767752 Z" id="Oval-Copy-6" stroke="#000000" stroke-width="4" stroke-linejoin="round" transform="translate(19.583560, 90.318625) scale(-1, 1) rotate(70.000000) translate(-19.583560, -90.318625) "></path>
+            <path d="M35.204398,72.3838826 C34.1330966,70.0513908 37.463347,62.7707329 42.0751997,59.685501 C46.8666138,56.4801464 55.6054565,56.1045868 56.7977732,58.7005591 C57.85215,60.9962017 54.3440651,68.095789 49.7287443,71.1833409 C44.9257085,74.3964703 36.3946862,74.9754385 35.204398,72.3838826 Z" id="Oval-Copy-3" stroke="#000000" stroke-width="4" stroke-linejoin="round"></path>
+            <path d="M35.3988889,51.03436 C34.2076004,49.2678357 35.7448302,43.2044341 38.7545469,40.0620781 C40.3813899,38.3635396 42.7822433,37.0108207 45.4953568,36.0288904 C48.8854688,34.8019408 50.6371166,34.4316994 51.643276,35.9237017 C52.4074882,37.056928 51.8976874,38.5954043 50.5491163,41.5234771 C49.4046393,44.0084122 47.9957438,46.2797475 46.4359126,47.9083209 C43.2225959,51.2632495 36.8701045,53.2159796 35.3988889,51.03436 Z" id="Oval-Copy-5" stroke="#000000" stroke-width="4"></path>
+            <path d="M35.5,51.4321774 L35.5,112.392157" id="Line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
