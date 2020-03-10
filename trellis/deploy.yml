@@ -4,7 +4,7 @@
     playbook: deploy.yml
 
 - name: Test Connection
-  hosts: nghia.pham:&{{ env }}
+  hosts: draking:&{{ env }}
   gather_facts: false
   vars:
     dynamic_user: true
@@ -12,7 +12,7 @@
     - { role: connection, tags: [connection, always] }
 
 - name: Deploy WP site
-  hosts: nghia.pham:&{{ env }}
+  hosts: draking:&{{ env }}
   remote_user: "{{ web_user }}"
   pre_tasks:
     - name: Ensure site is valid

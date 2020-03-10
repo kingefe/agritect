@@ -4,20 +4,20 @@
     playbook: server.yml
 
 - name: Test Connection and Determine Remote User
-  hosts: nghia.pham:&{{ env }}
+  hosts: draking:&{{ env }}
   gather_facts: false
   roles:
     - { role: connection, tags: [connection, always] }
 
 - name: Set ansible_python_interpreter
-  hosts: nghia.pham:&{{ env }}
+  hosts: draking:&{{ env }}
   gather_facts: false
   become: yes
   roles:
     - { role: python_interpreter, tags: [always] }
 
 - name: WordPress Server - Install LEMP Stack with PHP 7.3 and MariaDB MySQL
-  hosts: nghia.pham:&{{ env }}
+  hosts: draking:&{{ env }}
   become: yes
   roles:
     - { role: common, tags: [common] }
