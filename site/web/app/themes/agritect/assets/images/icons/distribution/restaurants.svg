@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="108" viewBox="0 0 140 108">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M25 37h89v66H25z"/>
+        <path stroke="#000" stroke-linecap="round" stroke-width="3" d="M12 102.5h116"/>
+        <path fill="#FFF" stroke="#000" stroke-linejoin="round" stroke-width="3" d="M115 32.06V103m-90 0V31M104 53v41H36V53.202"/>
+        <path fill="#FFF" stroke="#000" stroke-width="3" d="M28.5 14.5h83V8a.5.5 0 0 0-.5-.5H29a.5.5 0 0 0-.5.5v6.5z"/>
+        <path stroke="#000" stroke-width="3" d="M30 46c0 3.866 3.582 7 8 7s8-3.134 8-7"/>
+        <path fill="#FFF" stroke="#000" stroke-width="3" d="M14 46c0 3.866 3.582 7 8 7s8-3.134 8-7"/>
+        <path stroke="#000" stroke-width="3" d="M46 46c0 3.866 3.582 7 8 7s8-3.134 8-7"/>
+        <path fill="#FFF" stroke="#000" stroke-width="3" d="M62 46c0 3.866 3.582 7 8 7s8-3.134 8-7"/>
+        <path stroke="#000" stroke-width="3" d="M89 81c0-11.046-8.507-20-19-20s-19 8.954-19 20"/>
+        <path fill="#FFF" stroke="#000" stroke-linecap="round" stroke-width="3" d="M64 68c-4.422 1.771-7.052 6.153-7.977 12.244-.037.246-.018.502-.018.756"/>
+        <path fill="#FFF" stroke="#000" stroke-width="3" d="M78 46c0 3.866 3.582 7 8 7s8-3.134 8-7M94 46c0 3.866 3.582 7 8 7s8-3.134 8-7M110 46c0 3.866 3.582 7 8 7s8-3.134 8-7M28.968 14.5h83.005l13.335 30H14.851l14.117-30z"/>
+        <path stroke="#000" stroke-linejoin="round" stroke-width="3" d="M46 81h48v5H46z"/>
+        <circle cx="69.5" cy="59.5" r="1.5" fill="#FFF" stroke="#000" stroke-width="3"/>
+    </g>
+</svg>

@@ -1,0 +1,79 @@
+$table_border_size: 3px;
+$table_border_size_neg: -$table_border_size;
+
+.table {
+  margin: 2rem auto;
+  padding: 0 2rem;
+  > .row {
+    > div[class*="col-"] {
+      border: $table_border_size solid $color-black;
+      padding: 1rem calc(1rem + 1vw);
+      margin: 0 $table_border_size_neg $table_border_size_neg 0;
+      text-align: center;
+      @include media-breakpoint-up(md) {
+        &.col-12:not([class*="col-md"]) {
+          max-width: calc(100% - 3px);
+        }
+      }
+      @include media-breakpoint-up(lg) {
+        &.col-12:not([class*="col-lg"]) {
+          max-width: calc(100% - 3px);
+        }
+      }
+      &.spacer {
+        border: none;
+        background: transparent !important;
+      }
+      * {
+        max-width: 100%;
+        min-width: 0;
+      }
+    }
+    &.header {
+      div[class*="col-"] {
+        background: $color-brand;
+        .title {
+          width: 140%;
+          max-width: 140%;
+          color: $color-white;
+          background: $color-black;
+          margin: -1rem calc(-1rem - 1vw) 1rem;
+          padding: 1rem calc(1rem + 1vw);
+          text-transform: uppercase;
+          min-height: 3.5em;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+
+.table-wrapper {
+  &--overflow {
+    overflow-x: scroll;
+  }
+
+  @include media-breakpoint-down(sm) {
+    overflow-x: scroll;
+
+    .table {
+      width: auto;
+      max-width: auto;
+    }
+  }
+
+  &--plans {
+    @include media-breakpoint-down(sm) {
+      &:before {
+        content: '< Scroll horizontally to view all the plans >';
+        font-size: 1rem;
+        text-align: center;
+        display: block;
+        margin-bottom: .5rem;
+      }
+    }
+  }
+}

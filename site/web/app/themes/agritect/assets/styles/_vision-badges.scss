@@ -1,0 +1,120 @@
+.vision-badges {
+  justify-content: center;
+
+  .parameter {
+    display: inline-block;
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .vision-badge {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 180px;
+        padding: 0 1rem 1rem;
+
+        .icon {
+          border: 4px solid green;
+          border-radius: 50%;
+          height: 140px;
+          width: 140px;
+          img {
+            height: 100%;
+            width: 100%;
+            padding: 1em;
+            object-fit: contain;
+          }
+        }
+        .question {
+          display: inline-block;
+          font-size: 80%;
+          background: green;
+          color: $white;
+          margin: -1.5em 0 0;
+          padding: .2em 0em;
+
+        }
+        .response {
+          display: block;
+          border: 2px solid green;
+          border-top: none;
+          padding: .2em .5em .5em;
+        }
+
+      }
+
+    }
+
+    // Parameter Customizations ////////////////////
+    $c1: #5A896A;
+    $c2: #5FA276;
+    $c3: #60D37E;
+    $c4: #94D6B0;
+    $c5: #A0DCD7;
+    $c6: #93C6D9;
+    $c7: #C8EAEE;
+
+    &:nth-of-type(1) { .badges { .vision-badge {
+      .icon, .response {
+        border-color: $c1;
+      }
+      .question {
+        background-color: $c1;
+      }
+    } } }
+    &:nth-of-type(2) { .badges { .vision-badge {
+      .icon, .response {
+        border-color: $c5;
+      }
+      .question {
+        background-color: $c5;
+      }
+    } } }
+    &:nth-of-type(3) { .badges { .vision-badge {
+    .icon, .response {
+      border-color: $c2;
+    }
+    .question {
+      background-color: $c2;
+    }
+    } } }
+    &:nth-of-type(4) { .badges { .vision-badge {
+      .icon, .response {
+        border-color: $c6;
+      }
+      .question {
+        background-color: $c6;
+      }
+    } } }
+    &:nth-of-type(5) { .badges { .vision-badge {
+      .icon, .response {
+        border-color: $c3;
+      }
+      .question {
+        background-color: $c3;
+      }
+    } } }
+    &:nth-of-type(6) { .badges { .vision-badge {
+      .icon, .response {
+        border-color: $c7;
+      }
+      .question {
+        background-color: $c7;
+      }
+    } } }
+    &:nth-of-type(7) { .badges { .vision-badge {
+      .icon, .response {
+        border-color: $c4;
+      }
+      .question {
+        background-color: $c4;
+      }
+    } } }
+
+
+  }
+
+}

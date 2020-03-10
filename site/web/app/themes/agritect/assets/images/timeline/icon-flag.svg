@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/Flag</title>
+    <desc>Created with Sketch.</desc>
+    <g id="High-Fi-Flow-(FINAL)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Concept-Report-V1" transform="translate(-305.000000, -2024.000000)" stroke="#000000">
+            <g id="Icon/Flag" transform="translate(302.000000, 2023.000000)">
+                <g id="flag" transform="translate(3.000000, 2.000000)">
+                    <path d="M1,13 C1,13 2,12 5,12 C8,12 10,14 13,14 C16,14 17,13 17,13 L17,1 C17,1 16,2 13,2 C10,2 8,0 5,0 C2,0 1,1 1,1 L1,13 Z" id="Path" stroke-width="2" fill="#B54444"></path>
+                    <path d="M1,20 L1,13" id="Path" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

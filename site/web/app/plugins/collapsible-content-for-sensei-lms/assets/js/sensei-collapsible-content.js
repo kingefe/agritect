@@ -1,0 +1,1 @@
+!function(e){e(".collapsible").click(function(){e(this).parent().siblings(".module-body").children(".module-lessons").slideToggle(400,function(){$moduleHeader=e(this).parent().siblings(".module-header"),$moduleHeader.length&&(e(this).is(":visible")?$moduleHeader.removeClass("active"):$moduleHeader.addClass("active"))})})}(jQuery);

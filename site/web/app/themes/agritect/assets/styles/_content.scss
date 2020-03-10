@@ -1,0 +1,425 @@
+body {
+  // to take into account the fixed-top header 
+  padding-top: 62px;
+  overflow-x: hidden;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+.map-image {
+  margin-top: -60px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-dark {
+  background: $color-grey-dark;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  &--white {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &--hero {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+  }
+
+  &--large {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  &--small {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &--light {
+    background-color: $color-brand;
+  }
+
+  &--grey {
+    background-color: $color-grey-light;
+  }
+
+  &--dark {
+    background-color: #303030;
+    color: white;
+
+    p {
+      color: $color-grey-light;
+    }
+  }
+}
+
+
+// Placeholder styles for the homepage
+// TODO: integrate this properly with the rest of the site CSS
+
+@media (max-width: 767px) {
+  .order-first--mobile {
+    order: -1;
+  }
+}
+
+.link-black {
+  color: black;
+  text-decoration: underline;
+
+  &:hover, &:active, &:focus {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+.text-accent {
+  color: $color-brand !important;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-highlight {
+  position: relative;
+  display: inline-block;
+
+  span {
+    position: relative;
+    z-index: 10;
+  }
+
+  &.text-center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: $color-brand;
+    height: 0.5em;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+  }
+
+  &--light:after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 0.5em;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+  }
+}
+
+.v-align--middle {
+  display: flex;
+  align-items: center;
+}
+
+.v-align--column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+h1 {
+  font-size: 32px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 3.157rem;
+  }
+}
+
+h2 {
+  font-size: 24px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 2.369rem;
+  }
+}
+
+h3 {
+  font-size: 21px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.777rem;
+  }
+}
+
+h4 {
+  font-size: 18px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.333rem;
+  }
+}
+
+h5 {
+  font-size: 1rem !important;
+}
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+
+  .client-logo {
+    flex-basis: 50%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include media-breakpoint-up(lg) {
+      flex-basis: 25%;
+      padding: 2rem;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 40px;
+
+      @include media-breakpoint-up(lg) {
+        max-height: 80px;
+      }
+    }
+  }
+}
+
+.quote {
+  &__content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    margin-bottom: 0;
+
+    &:before {
+      content: '“';
+      font-weight: bold;
+      font-size: 2em;
+      display: inline-block;
+      position: absolute;
+      line-height: 1em;
+      left: 0;
+      top: 0;
+    }
+
+    &:after {
+      content: '”';
+      font-weight: bold;
+      font-size: 2em;
+      display: inline-block;
+      position: absolute;
+      line-height: 1em;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.testimonial {
+  background-color: $color-brand;
+  display: flex;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+
+  &--light {
+    background-color: #fff;
+  }
+
+  @include media-breakpoint-up(md) {
+    flex-wrap: nowrap;
+  }
+
+  &__quote {
+    padding: 2rem 1rem;
+    position: relative;
+    margin-bottom: 0;
+
+    @include media-breakpoint-up(md) {
+      flex-basis: 66.66%;
+      padding: 4rem 2rem;
+    }
+
+    &:before {
+      content: '“';
+      font-weight: bold;
+      font-size: 2em;
+      display: inline-block;
+      position: absolute;
+      line-height: 1em;
+      top: 1rem;
+      left: 1rem;
+    }
+
+    &:after {
+      content: '”';
+      font-weight: bold;
+      font-size: 2em;
+      display: inline-block;
+      position: absolute;
+      line-height: 1em;
+      bottom: 1rem;
+      right: 1rem;
+    }
+  }
+
+  &__company {
+    padding: 1rem;
+    flex-basis: 100%;
+
+    div {
+      flex-basis: 100%;
+    }
+
+    div {
+      width: 100%;
+    }
+
+    img {
+      max-height: 80px;
+    }
+
+    @include media-breakpoint-up(md) {
+      flex-basis: 33.33%;
+      padding: 2rem;
+    }
+  }
+}
+
+.large-quote {
+  align-items: center;
+  position: relative;
+
+  &__background {
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    top: 0;
+    left: 0;
+    background-color: white;
+  }
+
+  &__content,
+  &__image {
+    background-color: white;
+    padding: 1rem;
+
+    @include media-breakpoint-up(md) {
+      padding: 1.5rem;
+      background-color: transparent;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 2rem;
+    }
+  }
+}
+
+.location-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style-type: none;
+
+  @include media-breakpoint-up(lg) {
+    flex-direction: column;
+  }
+
+  &--worldwide {
+    li {
+      flex-basis: 50%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: 7.5rem;
+
+      li {
+        flex-basis: 20%;
+      }
+    }
+  }
+
+  &--usa {
+    li {
+      flex-basis: 50%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: 9rem;
+
+      li {
+        flex-basis: 16.66%;
+      }
+    }
+  }
+}
+
+.expense-breakouts {
+  &-wrapper {
+    .exp-table {
+      width: 100%;
+
+      @media (min-width: 992px) {
+        width: 50%;
+        float: left;
+      }
+
+      @media (min-width: 1200px) {
+        width: 30%;
+      }
+    }
+
+    .exp-piechart {
+      @media (min-width: 992px) {
+        width: 50%;
+        float: left;
+        padding-left: 15px;
+      }
+
+      @media (min-width: 1200px) {
+        width: 60%;
+      }
+    }
+  }
+}
+
+.pms-content--paid {
+  display: none;
+}
+

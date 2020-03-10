@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/Inspiration/Black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Inspiration/Black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(14.586002, 8.085786)" stroke="#000000" stroke-width="2">
+            <path d="M16.4139982,25.5821882 C16.5235155,24.8731546 16.5247033,24.4678612 16.8958496,23.5161972 C18.203742,20.1626028 22,18.3784574 22,11.0270745 C22,4.93699841 17.325,1.95399252e-14 11,1.95399252e-14 C4.675,1.95399252e-14 0,4.93800135 0,11.0270745 C0,18.3784574 3.63087608,20.1485056 4.95,23.5161972 C5.12953122,23.974536 5.26753829,24.403145 5.37561495,24.8036177 C5.47490738,25.1715409 5.54893704,25.5157156 5.60669425,25.8373776" id="Shape"></path>
+            <path d="M18,10 C18,6.6862915 14.418278,4 10,4" id="Path" stroke-linecap="round"></path>
+            <rect id="Rectangle" x="3.41399817" y="24.9142136" width="16" height="5" rx="2.5"></rect>
+            <path d="M6.41399817,29.9142136 L16.4139982,29.9142136 L16.4139982,32.9142136 C16.4139982,35.6756373 14.1754219,37.9142136 11.4139982,37.9142136 C8.65257442,37.9142136 6.41399817,35.6756373 6.41399817,32.9142136 L6.41399817,29.9142136 Z" id="Rectangle-Copy" stroke-linejoin="round"></path>
+            <path d="M7.5473315,33.9142136 L15.2806648,33.9142136" id="Line" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

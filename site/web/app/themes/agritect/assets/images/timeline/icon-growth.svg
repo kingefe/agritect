@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="65px" viewBox="0 0 74 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="High-Fi-Flow-(FINAL)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Concept-Report-V1" transform="translate(-1192.000000, -1894.000000)">
+            <g id="Group-7" transform="translate(1178.359927, 1876.000000)">
+                <polygon id="Polygon-Copy-6" fill="#C8EAEE" transform="translate(50.500000, 50.500000) rotate(-330.000000) translate(-50.500000, -50.500000) " points="50.5 14 82.1099272 32.25 82.1099272 68.75 50.5 87 18.8900728 68.75 18.8900728 32.25"></polygon>
+                <g id="Icon/Celebration" transform="translate(24.640073, 23.000000)" stroke="#000000" stroke-width="2">
+                    <circle id="Oval" cx="18" cy="13" r="2"></circle>
+                    <circle id="Oval-Copy" cx="44" cy="15" r="2"></circle>
+                    <rect id="Rectangle" stroke-linejoin="round" x="38" y="33" width="4" height="4"></rect>
+                    <polygon id="Triangle" stroke-linejoin="round" transform="translate(33.000000, 17.500000) rotate(-71.000000) translate(-33.000000, -17.500000) " points="33 15 36 20 30 20"></polygon>
+                    <path d="M23.5972931,20 C23.5091191,19.2994104 23.5126394,18.4296965 23.7929267,17.6717121 C25.3126775,13.5618322 28.5463348,15.4153485 28.5463348,9" id="Line" stroke-linecap="round"></path>
+                    <path d="M37.0463348,29.9262545 C36.966161,29.3577417 36.9693619,28.6519882 37.2242179,28.0369008 C38.6060771,24.701825 41.5463348,26.2059121 41.5463348,21" id="Line-Copy" stroke-linecap="round" transform="translate(39.273167, 25.463127) rotate(50.000000) translate(-39.273167, -25.463127) "></path>
+                    <path d="M32.2965158,37.3768389 C34.0456563,35.7263919 32.4207111,31.3095745 28.6670991,27.5116012 C24.9134871,23.713628 20.4526248,21.972714 18.7034842,23.6231611 C16.9543437,25.2736081 18.5792889,29.6904255 22.3329009,33.4883988 C26.0865129,37.286372 30.5473752,39.027286 32.2965158,37.3768389 Z" id="Oval"></path>
+                    <polyline id="Path-119" stroke-linejoin="round" points="18 25.0726142 11 45 31.9314494 37.6774026"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

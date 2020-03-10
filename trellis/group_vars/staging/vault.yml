@@ -1,0 +1,24 @@
+# Documentation: https://roots.io/trellis/docs/vault/
+vault_mysql_root_password: "8Q4wdVEcwyn4yTgkZbRNmPvJ"
+
+# Documentation: https://roots.io/trellis/docs/security/
+vault_users:
+  - name: "{{ admin_user }}"
+    password: "KwqU2FwpzG9S2RjrzqxN4VRa"
+    salt: "ZVmc4AzAuw3YtnaAmZMTEawk"
+
+# Variables to accompany `group_vars/staging/wordpress_sites.yml`
+# Note: the site name (`example.com`) must match up with the site name in the above file.
+vault_wordpress_sites:
+  staging.design.agritecture.com:
+    env:
+      db_password: wN6j2jUPQb9vJDtjd6j6U7jM
+      # Generate your keys here: https://roots.io/salts.html
+      auth_key: "FWx>/hZyqzbKUCx)vz2D@zy3sRgcePRZ/8tR&)WubM?R9s,|9wcHEbN7vE0;%vf`"
+      secure_auth_key: "B2hF6LGC7I.I!R1zDk,R:/h!$9_8QMu&IS9pW.gy!w#j89;`l8fBw5pV&3S+r)CT"
+      logged_in_key: "rVcBe?>AEozjT5TPMyBH%T,tQ83u9-T}EGs^#VlByL*=w+<@eCKd&YDC2IcOSo4?"
+      nonce_key: "C;sd707Tn1A8ha+j{_:]#Yi5jM[nvez(is2gXm7H>_8tzACCGPjCaeF5Eja}xXE:"
+      auth_salt: "oH>}jI!BX[?mRUWX:!V}h6(d^3:^,$yp/aPF`/8<zX/=JWbP&1s6A10vMX^a*Axz"
+      secure_auth_salt: "UlK0j(xG[_oZI(|6py_u)t4?R=Ii0&yshV[QJ/e]+zo;j:+G9{&#q*j>%(,b<W2a"
+      logged_in_salt: "jQh.y{<205I;0:qakuR!70W1RIs2)9wM2_`LY/!KB$s8BhYZaGY+;<p|}wvQ/7@6"
+      nonce_salt: "u!<Tao)Gf00kaB3OMOx+_T<T}Bqh#TSwT,W;<V{-9(s^WEzP{yyUIuNyl&+NYP,m"

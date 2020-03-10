@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="65px" viewBox="0 0 73 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="High-Fi-Flow-(FINAL)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Concept-Report-V1" transform="translate(-175.000000, -1894.000000)">
+            <g id="Group" transform="translate(161.000000, 1876.000000)">
+                <polygon id="Polygon" fill="#5A896A" transform="translate(50.500000, 50.500000) rotate(-330.000000) translate(-50.500000, -50.500000) " points="50.5 14 82.1099272 32.25 82.1099272 68.75 50.5 87 18.8900728 68.75 18.8900728 32.25"></polygon>
+                <g id="Icon/Inspiration/Black" transform="translate(24.500000, 24.500000)" stroke="#000000" stroke-width="2">
+                    <path d="M31,33.6679746 C31.1095173,32.9589411 31.1107051,32.5536476 31.4818514,31.6019836 C32.7897439,28.2483893 36.5860018,26.4642439 36.5860018,19.1128609 C36.5860018,13.0227848 31.9110018,8.08578644 25.5860018,8.08578644 C19.2610018,8.08578644 14.5860018,13.0237878 14.5860018,19.1128609 C14.5860018,26.4642439 18.2168779,28.234292 19.5360018,31.6019836 C19.7155331,32.0603225 19.8535401,32.4889315 19.9616168,32.8894041 C20.0609092,33.2573273 20.1349389,33.601502 20.1926961,33.923164" id="Shape"></path>
+                    <path d="M32.5860018,18.0857864 C32.5860018,14.7720779 29.0042798,12.0857864 24.5860018,12.0857864" id="Path" stroke-linecap="round"></path>
+                    <rect id="Rectangle" x="18" y="33" width="16" height="5" rx="2.5"></rect>
+                    <path d="M21,38 L31,38 L31,41 C31,43.7614237 28.7614237,46 26,46 C23.2385763,46 21,43.7614237 21,41 L21,38 Z" id="Rectangle-Copy" stroke-linejoin="round"></path>
+                    <path d="M22.1333333,42 L29.8666667,42" id="Line" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="108" viewBox="0 0 140 108">
+    <g fill="#FFF" fill-rule="evenodd" stroke="#000" stroke-width="3">
+        <path stroke-linejoin="round" d="M56.319 18.844L81.743 11l8.962 18.994-2.859 14.072L116 64.206 95.55 82.98 50.28 91 34 69.09V28.754h23.59z"/>
+        <path d="M61 66l-12.081 2.596a1 1 0 0 0-.79.957L48 76"/>
+        <path stroke-linejoin="round" d="M71 71.032L67.766 64 61 65.835l.847 4.698.419 2.467"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M85 65l-8-7"/>
+        <path d="M96 64l-7-5"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M101.141 7.252L102.91 4l6.983 3.71-1.303 3.073 6.349 3.383 1.618-3.383 4.605 2.453-1.55 3.325L125 19.486 119.613 30 92 15.456l5.233-10.334zM38 33l15.973 1.346 8.027.676-4.723 24.908L38 64z"/>
+        <path stroke-linejoin="round" d="M38.28 54.25l19.442.5M47.75 34.278L46.25 54M47 45.5h11.716"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M32 12.314L36.248 4 42 9.09 38.769 16zM51.388 84.944L73 80.405 71.052 71 48 75.56l2.213 8.653a1 1 0 0 0 1.175.73z"/>
+        <path d="M56 73l2 10"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M88.697 73L73 64.412 81.615 47 101 59.457z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M95.295 77L89 73.074 100.434 59 108 64.375z"/>
+        <path stroke-linejoin="round" d="M84.616 31.46l-2.088 10.327L76.97 42l-1.803-7.83-.076-.707-.091-.84"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M83 69l9.5-14M22.07 81.971l5.485-1.084L26.52 76 10 79.646l3.2 15.166 5.668-1.44L19.884 98 31 95.794l-2.45-11.002-5.635 1.352zM131 46.766L124.297 58 111 47.624 115.893 34zM62.017 101L59 96.64 74.943 94 76 99.158zM116.477 84L115 75.416 121.256 74 123 83.587zM20.649 50.971L15.158 52 12 35.856 21 34z"/>
+        <path d="M15 46l4.792-.77"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11.651 27L11 21.309 21.115 19 23 24.325zM107.232 93L115 95.818 113.771 101l-8.771-.979z"/>
+        <path stroke-linecap="round" d="M75.03 33L74 25.846 81.005 24 84 30.76z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M81 23.985L77.774 17 68 19.654 69.874 27zM67.63 20l-.528.14L62 21.496 64.7 35l5.467-1.21a1 1 0 0 0 .751-1.23L67.629 20z"/>
+        <rect width="9" height="11" x="64.5" y="42.5" rx="2"/>
+        <circle cx="33.5" cy="69.5" r="1.5"/>
+        <circle cx="49.5" cy="91.5" r="1.5"/>
+        <circle cx="95.5" cy="82.5" r="1.5"/>
+        <circle cx="115.5" cy="64.5" r="1.5"/>
+        <circle cx="88.5" cy="43.5" r="1.5"/>
+        <circle cx="90.5" cy="29.5" r="1.5"/>
+        <circle cx="55.5" cy="19.5" r="1.5"/>
+        <circle cx="57.5" cy="28.5" r="1.5"/>
+        <circle cx="33.5" cy="29.5" r="1.5"/>
+        <circle cx="82.5" cy="11.5" r="1.5"/>
+    </g>
+</svg>

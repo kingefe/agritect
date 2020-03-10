@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="108" viewBox="0 0 140 108">
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(11 6)">
+            <path fill="#FFF" stroke="#000" stroke-width="3" d="M60.289 96c.223 0 13.31-11.058 22.878-25.967C90.546 58.533 95 48 95 35.41 95 15.854 79.106 0 59.5 0S24 15.854 24 35.41c0 11.803 5.59 23.038 13.395 34.623C47.35 84.809 60.068 96 60.29 96z"/>
+            <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M0 97h118"/>
+            <circle cx="59.5" cy="36.5" r="23.5" fill="#FFF" stroke="#000" stroke-width="3"/>
+            <g fill="#000" fill-rule="nonzero">
+                <path d="M62.334 46h-8.501v-2.714h8.373c1.256.045 2.4-.69 2.834-1.819a2.62 2.62 0 0 0-.373-2.479 2.876 2.876 0 0 0-2.333-1.13h-5.441c-2.737.05-5.14-1.737-5.767-4.29a5.258 5.258 0 0 1 1.133-4.55C53.335 27.741 54.955 27 56.666 27h8.501v2.714h-8.373c-1.256-.045-2.4.69-2.834 1.819a2.62 2.62 0 0 0 .373 2.479 2.876 2.876 0 0 0 2.333 1.13h5.441c2.737-.05 5.14 1.737 5.767 4.29a5.258 5.258 0 0 1-1.133 4.55C65.665 45.259 64.045 46 62.334 46z"/>
+                <path d="M57 24h4v5h-4zM57 45h4v4h-4z"/>
+            </g>
+        </g>
+        <path fill="#FFF" stroke="#000" stroke-linejoin="round" stroke-width="3" d="M25.15 102L24 82.37V63h21v39"/>
+        <path fill="#FFF" stroke="#000" stroke-linejoin="round" stroke-width="3" d="M18 82h9v21h-9zM28 56h13v7H28zM35 102.237v-29h20v29M99 67.832V50l15 11.151V103h-12.944"/>
+        <path fill="#FFF" stroke="#000" stroke-linejoin="round" stroke-width="3" d="M90 68h15v35H90z"/>
+        <path fill="#FFF" stroke="#000" stroke-linecap="round" stroke-width="3" d="M109.37 64.5v38.382"/>
+        <path fill="#FFF" stroke="#000" stroke-linecap="square" stroke-width="3" d="M36.5 80h18.167M36.5 86h18.167M36.5 92h18.167"/>
+        <path stroke="#000" stroke-linecap="square" stroke-width="3" d="M36.5 97h18.167"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M11 103h118"/>
+    </g>
+</svg>

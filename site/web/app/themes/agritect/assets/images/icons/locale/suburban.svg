@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="108" viewBox="0 0 140 108">
+    <g fill="#FFF" fill-rule="evenodd" stroke="#000" stroke-width="3">
+        <path stroke-linejoin="round" d="M23.758 63H10V25.673L24.071 4h41.062L81.17 27"/>
+        <path stroke-linecap="square" d="M11 27h65.001L87 59.65 23.561 63"/>
+        <path stroke-linejoin="round" d="M81.948 51.394C78.224 46.617 76 40.573 76 34c0-15.464 12.312-28 27.5-28S131 18.536 131 34c0 13.169-8.928 24.214-20.958 27.203"/>
+        <path stroke-linecap="round" d="M104 43l8-9M96 38l6 13"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M103.476 24.511V52"/>
+        <path stroke-linejoin="round" d="M63.161 53.625L64.901 51h37.647L116 70.47V104H52V85.318"/>
+        <path stroke-linejoin="round" d="M92 82h11v11H92zM29.045 51H24.75A1.75 1.75 0 0 1 23 49.25v-10.5c0-.966.784-1.75 1.75-1.75h10.5c.966 0 1.75.784 1.75 1.75v6.393M69 82h13v22H69z"/>
+        <path stroke-linecap="square" d="M66 72.25h47"/>
+        <circle cx="45" cy="65" r="21" stroke-linejoin="round"/>
+        <path stroke-linecap="round" d="M45 76l-5-6M52 73l-6 12"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M45.524 63.33l-.149 39.23"/>
+    </g>
+</svg>

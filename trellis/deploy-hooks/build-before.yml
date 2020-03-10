@@ -1,0 +1,46 @@
+# Placeholder `deploy_build_before` hook for building theme assets on the
+# host machine and then copying the files to the remote server
+#
+# ⚠️ This example assumes your theme is using Sage 9
+# An example for themes built with Sage 8 can be found at: https://git.io/vdgUt
+#
+# Uncomment the lines below and replace `sage` with your theme folder
+#
+---
+- name: Install bower
+  command: npm install -g bower
+  remote_user: "{{ admin_user }}"
+  become: yes
+  args:
+    chdir: "{{ deploy_helper.new_release_path }}/web/app/themes/agritect"
+
+- name: Install bower dependencies
+  command: bower install
+  remote_user: "{{ web_user }}"
+  args:
+    chdir: "{{ deploy_helper.new_release_path }}/web/app/themes/agritect"
+
+- name: Install Composer dependencies
+  command: composer install --no-ansi --no-dev --no-interaction --no-progress --optimize-autoloader --no-scripts
+  args:
+    chdir: "{{ deploy_helper.new_release_path }}/web/app/themes/agritect"
+
+- name: Install npm dependencies
+  command: yarn
+  remote_user: "{{ web_user }}"
+  args:
+    chdir: "{{ deploy_helper.new_release_path }}/web/app/themes/agritect"
+
+- name: Compile assets for production
+  command: yarn build
+  remote_user: "{{ web_user }}"
+  args:
+    chdir: "{{ deploy_helper.new_release_path }}/web/app/themes/agritect"
+
+- name: Copy firebase credentials for production
+  synchronize:
+    src: "{{ project_local_path }}/web/app/themes/agritect/agritecture-firestore-ed34e3f166cd.json"
+    dest: "{{ deploy_helper.new_release_path }}/web/app/themes/agritect"
+    group: no
+    owner: no
+    rsync_opts: --chmod=Du=rwx,--chmod=Dg=rx,--chmod=Do=rx,--chmod=Fu=rw,--chmod=Fg=r,--chmod=Fo=r

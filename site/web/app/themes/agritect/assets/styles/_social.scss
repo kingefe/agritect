@@ -1,0 +1,49 @@
+// SOCIAL ICONS
+.social-icons {
+  padding: 0;
+  text-align: center;
+  line-height: normal;
+  list-style: none;
+
+  a {
+    display: inline-block;
+    margin: 0.25rem 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+    text-align: center;
+    color: $color-grey;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.33s ease;
+    text-transform: none !important;
+    font-size: 0;
+    opacity: .8;
+    &:hover {
+      transform: scale(1.25);
+      opacity: 1;
+    }
+    &:before {
+      font-size: 3rem;
+      display: inline-block;
+    }
+  }
+}
+
+
+
+/** Social Network Modifiers **/
+.fab[class*="linkedin"] {
+  color: #0277B5 !important; }
+
+.fab[class*="twitter"] {
+  color: #1CA1F1 !important;;
+}
+
+.fab[class*="facebook"] {
+  color: #3C5997 !important;;
+}
+
+.fab[class*="whatsapp"] {
+  color: #2CB742 !important;;
+}
