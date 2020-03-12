@@ -9,7 +9,7 @@ wordpress_sites:
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:kingefe/agritect.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
-    branch: staging
+    branch: master
     admin_email: nghia.pham@efe.com.vn
     multisite:
       enabled: false
