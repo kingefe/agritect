@@ -112,7 +112,7 @@
 
 - name: Update apt packages
   apt:
-    update_cache: no
+    update_cache: yes
 
 - name: Checking essentials
   apt:
